@@ -11,7 +11,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="bg-[#121c27] text-white border-b border-gray-700 sticky top-0 z-50">
+        <header className="bg-[#FFFFFF] text-white border-b border-gray-700 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
 
                 {/* Logo - Clicks navigate to Home */}
@@ -21,7 +21,7 @@ const Header = () => {
                         alt="HERO.IO Logo"
                         className="w-8 h-8 rounded-full"
                     />
-                    <span className="text-xl font-bold text-white tracking-wider hidden sm:block">
+                    <span className="text-xl font-bold text-blue-600 tracking-wider hidden sm:block">
                         HERO.IO
                     </span>
                 </Link>
