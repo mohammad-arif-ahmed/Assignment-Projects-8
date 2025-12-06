@@ -15,16 +15,15 @@ const HomePage = () => {
   
   
   const renderBanner = () => (
-    <section className="py-16 md:py-24 text-center bg-[#0f172a] relative overflow-hidden">
+    <section className="py-8 md:py-24 text-center bg-blend-soft-light relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         
         <div className="max-w-4xl mx-auto z-10 relative">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
-            We Build <span className="text-[#a78bfa]">Productive Apps</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 text-black">
+            We Build <br /> <span className="text-purple-700">Productive </span> Apps
           </h1>
           <p className="text-gray-400 mb-8 max-w-3xl mx-auto">
-            At HERO.IO, we craft innovative apps designed for everyday life—simpler, smarter, and more exciting. 
-            Our goal is to turn your ideas into digital experiences that truly work for users.
+            At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
           </p>
 
           {/* Buttons (Google Play & App Store) */}
@@ -84,7 +83,7 @@ const HomePage = () => {
   ];
 
   const renderStatesSection = () => (
-    <section className="py-16 bg-[#a78bfa] text-white shadow-xl"> 
+    <section className="py-8 bg-purple-700 text-white shadow-xl"> 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
         {/* Title */}
@@ -130,12 +129,12 @@ const HomePage = () => {
   const topApps = appsData.slice(0, 8); 
 
   const renderTopAppsSection = () => (
-    <section className="py-16 bg-[#0f172a]"> 
+    <section className="py-16 bg-blend-soft-light"> 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Title & Subtitle */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-white">Trending Apps</h2>
+          <h2 className="text-4xl font-extrabold text-black">Trending Apps</h2>
           <p className="text-gray-400 mt-2">
             Explore All Trending Apps on the Market developed by us
           </p>
@@ -153,7 +152,7 @@ const HomePage = () => {
         <div className="text-center mt-12">
           <Link
             to="/apps"
-            className="inline-block bg-[#a78bfa] hover:bg-[#8b5cf6] text-white font-semibold py-3 px-8 rounded-lg transition duration-300 shadow-lg"
+            className="inline-block bg-purple-700 hover:bg-[#8b5cf6] text-white font-semibold py-3 px-8 rounded-lg transition duration-300 shadow-lg"
           >
             Show All
           </Link>
